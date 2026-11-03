@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path
+        name="reports"
+        path="reports/" />
+    <external-files-path
+        name="pod"
+        path="Pictures/" />
+    <files-path
+        name="pod-internal"
+        path="pod-camera/" />
+</paths>

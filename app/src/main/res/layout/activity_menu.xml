@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="DT610 Pro"
+        android:textColor="@color/navy"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp"
+        android:text="Choose a page"
+        android:textColor="@color/muted"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonOpenAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Authentication verification" />
+
+    <Button
+        android:id="@+id/buttonOpenDelivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Delivery demo" />
+
+    <Button
+        android:id="@+id/buttonOpenAi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="On-device AI demo" />
+
+    <Button
+        android:id="@+id/buttonOpenPodCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="POD camera test" />
+
+</LinearLayout>

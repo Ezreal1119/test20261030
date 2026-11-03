@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navy">#FF0B1F33</color>
+    <color name="teal">#FF0F6E6E</color>
+    <color name="ink">#FF1C2830</color>
+    <color name="muted">#FF5C6B73</color>
+    <color name="page">#FFF3F5F7</color>
+    <color name="pass_green">#FF1B7F4E</color>
+    <color name="fail_red">#FFA12622</color>
+    <color name="not_verified_amber">#FF8A5A00</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DT610 Auth Verification</string>
+    <string name="passkey_explanation">A device-bound credential cannot be copied off the authenticator (backup eligibility BE = 0). A synced Passkey, including many Google Password Manager Passkeys, has BE = 1 and may be usable on another device. This app does not treat a Google Password Manager Passkey as device-bound. User verification (UV) means the authenticator checked a PIN or biometric. UV on this demo relying party is evidence of a phishing-resistant ceremony. It is not, by itself, the customer identity-provider policy.</string>
+    <string name="integrated_explanation">The timer starts when this button is pressed and stops when the authenticated home screen is ready. It includes device authentication, network time, the Passkey PIN or biometric prompt, backend verification, session establishment, and the screen transition. Target: 20 seconds. The home screen opens only after the backend confirms the session.</string>
+    <string name="replace_key_title">Replace device key?</string>
+    <string name="replace_key_message">A key already exists in Android Keystore. Replacing it deletes that key from this device. The server keeps the previous public key until you register again with a new enrollment token.</string>
+    <string name="replace_key_confirm">Replace key</string>
+    <string name="attestation_unverified">Hardware-backed attestation not verified.</string>
+</resources>
